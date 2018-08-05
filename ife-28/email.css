@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 250px;
+    font-size: 12px;
+}
+input {
+    padding-left: 15px;
+    height: 35px;
+    width: 100%;
+    border: solid 1px #ddd;
+    outline: none;
+}
+ul {
+    margin: 0;
+    padding-left: 15px; 
+    width: 100%;
+    border: solid 1px #ddd;
+    border-top: none;
+    border-bottom: none;
+    list-style: none;
+} 
+li {
+    padding-left: 15px;
+    margin-left: -15px;
+    height: 30px;
+    line-height: 30px;
+}
+li:hover {
+    background: #cae1ff;
+}
+
+.selected {
+    background: #ffe4e1;
+}
